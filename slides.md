@@ -1,40 +1,58 @@
 ---
-marp: true
+marp : true
 ---
 
-# Barack Obama's Presidency: Top 5 Achievements
+<!--
+theme: gaia
+class: invert
+-->
 
----
+# Martin Luther King Jr.: A Legacy of Courage and Conviction
 
-## 1. Affordable Care Act (ACA)
-- Signed into law in 2010, the ACA expanded healthcare coverage to millions of Americans.
-- Key provisions included prohibiting insurance companies from denying coverage for pre-existing conditions and allowing children to stay on their parents' plans until age 26.
-- The law also established health insurance marketplaces and expanded Medicaid eligibility.
-
----
-
-## 2. Economic Recovery from the Great Recession
-- Obama oversaw the implementation of the American Recovery and Reinvestment Act (2009), which provided economic stimulus through tax cuts, infrastructure spending, and aid to states.
-- The economy began to recover, with unemployment dropping from 10% in 2009 to 4.7% by 2016.
-- The auto industry bailout saved millions of jobs and revitalized the sector.
+Martin Luther King Jr. (January 15, 1929 – April 4, 1968) was an American Baptist minister, activist, and leader in the Civil Rights Movement. His unwavering commitment to nonviolent resistance and social justice left an indelible mark on American history and the global struggle for equality.
 
 ---
 
-## 3. Iran Nuclear Deal (JCPOA)
-- Brokered in 2015, the Joint Comprehensive Plan of Action aimed to prevent Iran from developing nuclear weapons.
-- Iran agreed to limit its nuclear program in exchange for sanctions relief.
-- The deal was hailed as a significant diplomatic achievement, reducing tensions and promoting global security.
+# Early Life and Education
+
+Born Michael King Jr. in Atlanta, Georgia, he later changed his name to Martin Luther King Jr. in honor of the German reformer. King excelled academically, skipping both ninth and twelfth grade, and entered Morehouse College at the age of 15. He went on to earn a Bachelor of Arts in Sociology, a Bachelor of Divinity from Crozer Theological Seminary, and a Ph.D. in Systematic Theology from Boston University.
+
+![MLK as a young man](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Martin_Luther_King_Jr_NYWTS.jpg/800px-Martin_Luther_King_Jr_NYWTS.jpg)
 
 ---
 
-## 4. Operation Neptune Spear
-- Authorized the 2011 raid that resulted in the death of Osama bin Laden, the mastermind behind the 9/11 attacks.
-- This operation was a major victory in the fight against terrorism and boosted U.S. national security efforts.
+# The Montgomery Bus Boycott (1955-1956)
+
+King's leadership in the Civil Rights Movement began with the Montgomery Bus Boycott, sparked by Rosa Parks' refusal to give up her seat to a white passenger. As the leader of the Montgomery Improvement Association, King advocated for nonviolent protest, inspiring a 385-day boycott that ultimately led to the desegregation of Montgomery's public buses.
+
+This pivotal moment established King as a prominent figure in the Civil Rights Movement and showcased the power of nonviolent resistance.
 
 ---
 
-## 5. Legalization of Same-Sex Marriage
-- Obama's administration supported the Supreme Court case Obergefell v. Hodges, which legalized same-sex marriage nationwide in 2015.
-- This marked a significant milestone in LGBT rights and civil rights history in the United States.
+# The March on Washington (1963)
 
-![Pie Preferences](pie_preferences.png)
+On August 28, 1963, King delivered his iconic "I Have a Dream" speech during the March on Washington for Jobs and Freedom. Standing before a crowd of over 250,000 people, King articulated a vision of racial equality and an end to segregation.
+
+> "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'"
+
+This speech remains one of the most famous and influential orations in American history.
+
+---
+
+# Achievements and Recognition
+
+Throughout his life, King achieved numerous milestones, including:
+
+- Founding the Southern Christian Leadership Conference (SCLC) in 1957
+- Being awarded the Nobel Peace Prize in 1964
+- Organizing the Selma to Montgomery marches in 1965, which led to the passage of the Voting Rights Act
+
+King's tireless efforts were met with both admiration and opposition, but his commitment to nonviolence and social justice never wavered.
+
+---
+
+# Assassination and Legacy
+
+On April 4, 1968, Martin Luther King Jr. was assassinated in Memphis, Tennessee, while supporting striking sanitation workers. His death sent shockwaves across the nation and led to widespread outrage and protests.
+
+Today, King's legacy lives on through his writings, speeches, and the continued efforts of those fighting for racial equality and social justice. His birthday is now observed as a federal holiday in the United States, honoring his contributions to American society and the global struggle for human rights.
