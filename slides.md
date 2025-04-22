@@ -4,55 +4,48 @@ marp : true
 
 <!--
 theme: gaia
-class: invert
+class: lead
+paginate: true
+backgroundColor: #ffffff
+style: |
+    section.middle {
+        display: grid;
+        place-items: center;
+    }
+    img {
+        max-width: 100%;
+        max-height: 60vh;
+        object-fit: contain;
+    }
 -->
 
-# Martin Luther King Jr.: A Legacy of Courage and Conviction
-
-Martin Luther King Jr. (January 15, 1929 – April 4, 1968) was an American Baptist minister, activist, and leader in the Civil Rights Movement. His unwavering commitment to nonviolent resistance and social justice left an indelible mark on American history and the global struggle for equality.
+# **RBC Top 5 Highlights of 2022**  
 
 ---
 
-# Early Life and Education
+## **1. Strong Financial Performance**  
+RBC reported robust financial results in 2022, with net income of **$16.1 billion CAD**, driven by growth across all business segments. The bank’s focus on digital transformation and client-centric strategies contributed significantly to its success.  
 
-Born Michael King Jr. in Atlanta, Georgia, he later changed his name to Martin Luther King Jr. in honor of the German reformer. King excelled academically, skipping both ninth and twelfth grade, and entered Morehouse College at the age of 15. He went on to earn a Bachelor of Arts in Sociology, a Bachelor of Divinity from Crozer Theological Seminary, and a Ph.D. in Systematic Theology from Boston University.
-
-![MLK as a young man](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Martin_Luther_King_Jr_NYWTS.jpg/800px-Martin_Luther_King_Jr_NYWTS.jpg)
-
----
-
-# The Montgomery Bus Boycott (1955-1956)
-
-King's leadership in the Civil Rights Movement began with the Montgomery Bus Boycott, sparked by Rosa Parks' refusal to give up her seat to a white passenger. As the leader of the Montgomery Improvement Association, King advocated for nonviolent protest, inspiring a 385-day boycott that ultimately led to the desegregation of Montgomery's public buses.
-
-This pivotal moment established King as a prominent figure in the Civil Rights Movement and showcased the power of nonviolent resistance.
+![RBC Financial Performance Chart](https://via.placeholder.com/800x400?text=RBC+Financial+Performance+2022)  
 
 ---
 
-# The March on Washington (1963)
-
-On August 28, 1963, King delivered his iconic "I Have a Dream" speech during the March on Washington for Jobs and Freedom. Standing before a crowd of over 250,000 people, King articulated a vision of racial equality and an end to segregation.
-
-> "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'"
-
-This speech remains one of the most famous and influential orations in American history.
+## **2. Expansion of Digital Banking**  
+RBC continued to lead in digital innovation, launching **new features** in its mobile app and online banking platform. The bank also expanded its **AI-driven tools** to enhance customer experience and personalize financial advice.  
 
 ---
 
-# Achievements and Recognition
-
-Throughout his life, King achieved numerous milestones, including:
-
-- Founding the Southern Christian Leadership Conference (SCLC) in 1957
-- Being awarded the Nobel Peace Prize in 1964
-- Organizing the Selma to Montgomery marches in 1965, which led to the passage of the Voting Rights Act
-
-King's tireless efforts were met with both admiration and opposition, but his commitment to nonviolence and social justice never wavered.
+## **3. Sustainability Commitments**  
+RBC reinforced its commitment to sustainability by pledging **$500 billion CAD** in sustainable financing by 2025. The bank also achieved **carbon neutrality** in its operations, aligning with global climate goals.  
 
 ---
 
-# Assassination and Legacy
+## **4. Strategic Acquisitions**  
+RBC strengthened its position through key acquisitions, including the purchase of **Brewin Dolphin**, a UK wealth management firm, and **City National Bank’s** Canadian operations, expanding its global footprint.  
 
-On April 4, 1968, Martin Luther King Jr. was assassinated in Memphis, Tennessee, while supporting striking sanitation workers. His death sent shockwaves across the nation and led to widespread outrage and protests.
+---
 
-Today, King's legacy lives on through his writings, speeches, and the continued efforts of those fighting for racial equality and social justice. His birthday is now observed as a federal holiday in the United States, honoring his contributions to American society and the global struggle for human rights.
+## **5. Recognition and Awards**  
+RBC was recognized as **Canada’s Best Bank** by several global publications, including *Euromoney* and *Global Finance*. The bank also received accolades for its **diversity and inclusion initiatives** and leadership in ESG practices.  
+
+![RBC Awards 2022](https://via.placeholder.com/800x400?text=RBC+Awards+2022)
