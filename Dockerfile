@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8000
 
-EXPOSE python3.11 ravenpack.py
+ENTRYPOINT python ravenpack.py
