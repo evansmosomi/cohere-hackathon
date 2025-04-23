@@ -8,6 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN python ravenpack.py
+RUN python3.11 ravenpack.py
 
 # CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
