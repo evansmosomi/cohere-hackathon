@@ -58,7 +58,7 @@ def ravenpack(query: str) -> str:
     Args: 
         query: Query the user is asking
     """
-    query = "Amazon's stock price today?"
+    # query = "Amazon's stock price today?"
     bigdata = Bigdata(username="samuel.weller@rbccm.com", password="AidenAssist2025!")
     query = Similarity(query)
     search = bigdata.search.new(
@@ -71,5 +71,6 @@ def ravenpack(query: str) -> str:
     print(results_xml_string)
     return results_xml_string
 
-    if __name__ == "__main__":
-        mcp.run(transport="sse")
+
+if __name__ == "__main__":
+    mcp.run(transport="sse")
