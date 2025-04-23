@@ -1,7 +1,16 @@
 import cohere
 from fastapi import FastAPI
+from bigdata_client import Bigdata
+from bigdata_client.query import Similarity
+from bigdata_client.models.search import SortBy
+from bigdata_client.document import Document
+import nest_asyncio
+import uvicorn
+from ravenpack import convert_to_xml
 
 app = FastAPI()
+
+DISABLE_NEST_ASYNCIO=True
 
 @app.post("/slides_prompt")
 def slides_system_prompt(user_input):
@@ -42,3 +51,30 @@ def slides_system_prompt(user_input):
     final_result = (res.message.content[0].text)
     print(final_result)
     return final_result
+
+
+@app.post("/ravenpack")
+def ravenpack(query: str) -> str:
+    """
+    Get bigdata content that is relevant to the user query.
+
+    Args: 
+        query: Query the user is asking
+    """
+    
+    bigdata = Bigdata(username="samuel.weller@rbccm.com", password="AidenAssist2025!")
+    query = Similarity(query)
+    search = bigdata.search.new(
+        query,
+        rerank_threshold=0.7,
+        sortby=SortBy.RELEVANCE
+    )
+    results = search.run(limit=20)
+    results_xml_string = convert_to_xml(results)
+    return results_xml_string
+
+
+if __name__ == "__main__":
+    nest_asyncio.apply()
+    uvicorn.run("app:app", host="0.0.0.0", port=8080, workers = 2, log_level="info", loop='asyncio')
+    #  mcp.run(transport="sse")
