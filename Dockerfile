@@ -10,6 +10,6 @@ COPY . .
 
 EXPOSE 8080
 
-ENTRYPOINT python3.11 ravenpack.py
+RUN python ravenpack.py
 
 # CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

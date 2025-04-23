@@ -61,7 +61,6 @@ def ravenpack(query: str) -> str:
     Args: 
         query: Query the user is asking
     """
-    print("HUUU")
     
     bigdata = Bigdata(username="samuel.weller@rbccm.com", password="AidenAssist2025!")
     query = Similarity(query)
