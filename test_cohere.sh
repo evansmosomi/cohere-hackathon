@@ -10,10 +10,9 @@ NORTH_TOKEN=$(echo "$COUT" | grep '"token":"' | sed -E 's/.*"token":"([^"]*)".*/
 
 export MCP_SERVER_URL="https://cohere-hackathon-production.up.railway.app"
 
-curl --location "${HOST}/internal/v1/mcp_servers" \
+curl --location "${HOST}/internal/v1/mcp_servers/delete" \
 --header "Content-Type: application/json" \
 --header "Authorization: Bearer ${NORTH_TOKEN}" \
 --data '{
-    "url": '"\"${MCP_SERVER_URL}\""',
-    "name": "Bigdata_mcp_1"
+    "url": '"\"${MCP_SERVER_URL}\""'
 }'

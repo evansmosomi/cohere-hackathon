@@ -7,14 +7,17 @@ from bigdata_client.document import Document
 import nest_asyncio
 import uvicorn
 from ravenpack import convert_to_xml
+import os
 
 app = FastAPI()
+
+cohere_api_key = os.getenv("COHERE_API_KEY")
 
 DISABLE_NEST_ASYNCIO=True
 
 @app.post("/slides_prompt")
 def slides_system_prompt(user_input):
-    co = cohere.ClientV2(api_key="kfSIAfOx2Cz2NvUoF9DkqVAkEnBVrdnBYYHUTAgG")
+    co = cohere.ClientV2(api_key=cohere_api_key)
 
     system_message = """
     ## Task And Context
@@ -62,7 +65,7 @@ def ravenpack(query: str) -> str:
         query: Query the user is asking
     """
     
-    bigdata = Bigdata(username="samuel.weller@rbccm.com", password="AidenAssist2025!")
+    bigdata = Bigdata(username=os.getenv("bigdata_username"), password=os.getenv("bigdata_password"))
     query = Similarity(query)
     search = bigdata.search.new(
         query,
